@@ -7,7 +7,9 @@ authors = [
     { name = "Paul Kim", email = "spkim@protonmail.com" }
 ]
 requires-python = ">=3.14"
-dependencies = []
+dependencies = [
+    "inspect-ai>=0.3.263",
+]
 
 [project.scripts]
 boundary-probes = "boundary_probes:main"
